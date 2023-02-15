@@ -1,0 +1,93 @@
+/*General styles*/
+/*Homepage*/
+/*Explore*/
+/*Our exhibitions*/
+/*Get involved*/
+/*About us*/
+/*Message sent*/
+
+/*General styles*/
+
+html {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.cta {
+    background-color: #FDAA2E;
+    font-size: 0.938rem;
+    padding: 3px 15px;
+    border: 1px solid #000;
+    border-radius: 0px 5px 0px 5px;
+}
+
+.logo-mobile {
+    height: 40px;
+    width: 163px;
+}
+
+.image-wrapper {
+    height: auto;
+    width: auto;
+    position: relative;
+    margin: 0px;
+}
+
+/*Homepage*/
+
+.heading-on-image {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    right: 10px;
+    font-size:7vw;
+    width: 135px;
+}
+
+.cta-on-image {
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+}
+
+.fa-circle-down {
+    color: #D27C2C;
+    font-size: 2rem;
+}
+
+.contact-card {
+    text-align: center;
+    margin: auto;
+    width: 230px;
+    border: 3px solid #5AC5B4;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Explore*/
+
+/*Our exhibitions*/
+/*Get involved*/
+/*About us*/
+/*Message sent*/
