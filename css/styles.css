@@ -155,7 +155,6 @@ img {
 .image-wrapper {
     height: auto;
     width: auto;
-    position: relative;
 }
 
 .contact-card {
@@ -243,21 +242,25 @@ footer {
     background-color: #792EC3;
 }
 
+.welcome-image {
+    position: relative;
+}
+
 .heading-on-image {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     position: absolute;
     text-align: center;
-    top: 30px;
-    right: 10px;
+    top: 100px;
+    right: 24px;
     width: 135px;
 }
 
 .cta-on-image {
     position: absolute;
-    bottom: 25px;
-    right: 35px;
+    top: 200px;
+    right: 47px;
 }
 
 .welcome-message {
