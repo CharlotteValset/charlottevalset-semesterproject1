@@ -8,17 +8,31 @@
 
 /*General styles*/
 
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
+    font-size: 1rem;
     font-family: 'Roboto', Arial, sans-serif;
+    color: #000;
 }
 
 body {
-    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
 }
 
-img {
-    max-width: 100%;
-    max-width: 100%;
+ul {
+    list-style-type: none;
+    padding: 0px; 
+    text-align: center;
 }
 
 a {
@@ -26,27 +40,208 @@ a {
     color: #000;
 }
 
+
+header {
+    position: relative;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 0px;
+}
+
+nav {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    width: 100vw;
+    top: 50px;
+    padding: 8px 0px;
+}
+
+.nav-menu {
+    border: 3px solid #5AC5B4;
+    border-radius: 0px 15px 0px 15px;
+    width: 220px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li {
+    padding: 5px 10px;
+}
+
+li a:active {
+    background-color: #DACBEA;
+    width: 140px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 0px 5px;
+}
+
+.hamburger-menu {
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    right: 12px;
+    bottom: 9px;
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.bold-900 {
+    font-weight: 900;
+}
+
+img {
+    max-width: 100%;
+}
+
 .cta {
     background-color: #FDAA2E;
-    font-size: 0.938rem;
+    font-size: 1rem;
     padding: 3px 15px;
     border: 1px solid #000;
+    border-radius: 0px 5px 0px 5px;
+}
+
+.cta:hover,
+.cta:active {
+    background-color: #fff;
+    color: #792EC3;
+    font-size: 0.938rem;
+    padding: 3px 15px;
+    border: 1px solid #792EC3;
     border-radius: 0px 5px 0px 5px;
 }
 
 .logo-mobile {
     height: 40px;
     width: 163px;
+    padding-left: 15px;
 }
 
 .image-wrapper {
     height: auto;
     width: auto;
     position: relative;
-    margin: 0px;
 }
 
+.contact-card {
+    text-align: center;
+    margin: 0px auto 30px auto;
+    width: 230px;
+    border: 3px solid #5AC5B4;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.contact-card-heading {
+    margin: 18px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.25rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+input,
+textarea {
+    display: block;
+    border: 1px solid #4D4D4D;
+    border-radius: 3px;
+}
+
+input,
+textarea {
+    margin: 5px 0px 15px 0px;
+    padding: 10px 0px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 175px;
+    height: 25px;
+}
+
+label {
+    display: flex;
+    align-items: flex-start;
+}
+
+textarea {
+    height: 80px;
+    width: 175px;
+}
+
+footer {
+    background-color: #5AC5B4;
+}
+
+.footer-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+.footer-content p {
+    font-size: 0.75rem;
+}
+
+.footer-social-icons {
+    font-size: 2rem;
+}
+
+.csm-cpoyright {
+    font-size: 0.75rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
 /*Homepage*/
+
+.welcome-content {
+    margin-top: 65px;
+    background-color: #792EC3;
+}
 
 .heading-on-image {
     text-transform: uppercase;
@@ -56,7 +251,6 @@ a {
     text-align: center;
     top: 30px;
     right: 10px;
-    font-size:7vw;
     width: 135px;
 }
 
@@ -66,23 +260,65 @@ a {
     right: 35px;
 }
 
+.welcome-message {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.welcome-message > p {
+    margin: auto;
+    width: 80%;
+    padding: 10px 0px;
+}
+
+.h2-exhibitions_hompage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 0px;
+}
+
 .fa-circle-down {
     color: #D27C2C;
     font-size: 2rem;
 }
 
-.contact-card {
+.our-exhibitions_hompage {
     text-align: center;
-    margin: auto;
-    width: 230px;
-    border: 3px solid #5AC5B4;
-    border-radius: 0px 15px 0px 15px;
+    margin-bottom: 35px;
 }
 
-.contact-form {
+.exhibition-list {
+    margin: 10px 0px 20px 0px;
+}
+
+.exhibition-list > li {
+    padding: 3px 0px;
+}
+
+.csm-logo {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.csm-logo img {
+    width: 280px;
+}
+.our-aim {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.vr-glasses-img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: 0% 82%;
+    display: block;
+    margin: 15px auto 30px auto;
 }
 
 /*Explore*/

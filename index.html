@@ -8,13 +8,15 @@
         <title>Community Science Museum | Home</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/a2e18a1d66.js" crossorigin="anonymous"></script>    </head>
     <body>
      <header>
         <a href="index.html"><img src="images/CSM-logo.png" class="logo-mobile" alt="Logo of Community Science Museum"></a>
+        <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox"><img src="images/hamburger-menu.jpg" class="hamburger-menu"alt="Hamburger menu icon"></label>
         <nav>
-          <ul>
+            <ul class="nav-menu">
               <li><a href="index.html" class="active">Home</a></li>
               <li><a href=explore.html>Explore</a></li>
               <li><a href="our-exhibitions.html">Our exhibitions</a></li>
@@ -24,20 +26,20 @@
         </nav>
      </header>
      <main>
-        <section>
+        <section class="welcome-content">
             <div class="image-wrapper">
                 <img src="images/science.jpg" alt="Picture of female scientist sitting in front of a huge science equipment">
-                <h1 class="heading-on-image">Let's explore together!</h1>
-                <a href="explore.html" class="cta cta-on-image">Explore</a>
+                    <h1 class="heading-on-image">Let's explore together!</h1>
+                    <a href="explore.html" class="cta cta-on-image">Explore</a>
             </div>
-            <div>
+            <div class="welcome-message">
                 <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
             </div>
         </section>
-        <section class="exhibition-list">
-            <h2>Our exhibitions<i class="fa-regular fa-circle-down"></i></h2>
+        <section class="our-exhibitions_hompage">
+            <h2 class="h2-exhibitions_hompage">Our exhibitions<i class="fa-regular fa-circle-down"></i></h2>
             <img src="images/location.jpg" alt="Picture of an exhibitroom in our museum">
-            <ul>
+            <ul class="exhibition-list">
                 <li>Cosmology</li>
                 <li>Robotics and AI</li>
                 <li>Biology and Medicine</li>
@@ -45,19 +47,19 @@
             </ul>
             <a href="our-exhibitions.html" class="cta">Read more!</a>
         </section>
-        <section>
+        <section class="csm-logo">
             <img src="images/csm-logo2.png" alt="The logo of Community Science Museum">
         </section>
         <section>
-            <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+            <p class="our-aim">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
             <div class="image-wrapper">
-                <img src="images/vr-glasses.jpg" alt="Picture of a kid who is trying on VR-glasses ">
+                <img src="images/vr-glasses.jpg" class="vr-glasses-img" alt="Picture of a kid who is trying on VR-glasses ">
             </div>
         </section>
         <section class="contact-card">
-            <div>
-                <p>Any questions?</p>
-                <p>Please contact us!</p>
+            <div class="contact-card-heading">
+                <p class="bold-700">Any questions?</p>
+                <p class="bold-700">Please contact us!</p>
             </div>
             <div class="contact-form">
                 <form action="form-success.php" method="POST">
@@ -73,23 +75,23 @@
         </section>
      </main>
      <footer>
-        <div>
-            <div>
-                <p>Visit us</p>
+        <div class="footer-layout">
+            <div class="footer-content">
+                <p class="bold-700">Visit us</p>
                 <p>Markensgate 100</p>
                 <p>4630 Kristiansand</p>
             </div>
-            <div>
-                <p>Opening hours</p>
+            <div class="footer-content">
+                <p class="bold-700">Opening hours</p>
                 <p>Tuesday-Sunday</p>
                 <p>10.00-18.00</p>
             </div>
-            <div>
+            <div class="footer-social-icons">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
             </div>
-            <p>Copyright &copy; 2023 Community Science Museum</p>
         </div>
+        <p class="csm-cpoyright">Copyright &copy; 2023 Community Science Museum</p>
      </footer>
     </body>
 </html>
