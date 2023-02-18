@@ -248,9 +248,13 @@ footer {
     background-color: #792EC3;
 }
 
-.welcome-image {
+.image-wrapper {
     position: relative;
+}
+
+.image-wrapper img {
     display: block;
+    width: 100%;
 }
 
 .heading-on-image {
@@ -259,15 +263,16 @@ footer {
     color: #fff;
     position: absolute;
     text-align: center;
-    top: 100px;
-    right: 24px;
-    width: 135px;
+    top: 21%;
+    left: 38%;
+    font-size: 8vw;
 }
 
 .cta-on-image {
     position: absolute;
-    top: 200px;
-    right: 47px;
+    top: 72%;
+    left: 62%;
+    font-size: 3.5vw;
 }
 
 .welcome-message {
@@ -284,9 +289,10 @@ footer {
 
 .h2-exhibitions_hompage {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: 15px 0px;
+    gap: 30px;
 }
 
 .fa-circle-down {
