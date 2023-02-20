@@ -620,7 +620,10 @@ footer {
         text-decoration: underline;
     }
 
-    .logo-mobile,
+    .logo-mobile {
+        display: block;
+    }
+
     .hamburger-menu, 
     #menu-checkbox {
         display: none;
