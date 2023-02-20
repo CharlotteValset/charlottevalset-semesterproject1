@@ -166,6 +166,7 @@ img {
     width: auto;
 }
 
+ /*Contact card*/
 .contact-card {
     text-align: center;
     margin: 0px auto 30px auto;
@@ -179,6 +180,10 @@ img {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
+}
+
+.contact-card-heading p {
     font-size: 1.25rem;
 }
 
@@ -218,6 +223,7 @@ textarea {
     width: 175px;
 }
 
+ /*Footer*/
 footer {
     background-color: #5AC5B4;
     margin-top: auto;
@@ -559,77 +565,362 @@ footer {
 
 /*General styles*/
 
-header {
-    padding: 20px 0px;
-}
+    header {
+        padding: 20px 0px;
+    }
 
-nav {
-    display: block;
-    top: 96px;
-}
+    nav {
+        display: block;
+        top: 96px;
+    }
 
-.nav-menu {
-    /* border: 3px solid #5AC5B4;
-    border-radius: 0px 15px 0px 15px; */
-    width: 615px;
-    margin: 5px auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
+    .nav-menu {
+        /* border: 3px solid #5AC5B4;
+        border-radius: 0px 15px 0px 15px; */
+        width: 615px;
+        margin: 5px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-nav li {
-    padding: 6px 0px;
-}
+    nav li {
+        padding: 6px 0px;
+    }
 
-li a {
-    padding: 6px 10px;
-    width: auto;
-    height: auto;
-    font-size: 1.25rem;
-}
+    li a {
+        padding: 6px 10px;
+        width: auto;
+        height: auto;
+        font-size: 1.25rem;
+    }
 
-li a:hover {
-    background-color: #DACBEA;
-    width: auto;
-    height: auto;
-    display: initial;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 12px 0px 12px;
-    padding: 6px 10px;
-}
+    li a:hover {
+        background-color: #DACBEA;
+        width: auto;
+        height: auto;
+        display: initial;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 12px 0px 12px;
+        padding: 6px 10px;
+    }
 
-.active {
-    color: #792EC3;
-    text-decoration: underline;
-}
+    .active {
+        color: #792EC3;
+        text-decoration: underline;
+    }
 
-.logo-mobile,
-.hamburger-menu, 
-#menu-checkbox {
-    display: none;
-}
+    .logo-mobile,
+    .hamburger-menu, 
+    #menu-checkbox {
+        display: none;
+    }
 
-nav {
-    display: block;
-}
+    nav {
+        display: block;
+    }
 
-.logo-desktop {
-    display: block;
-    width: 285px;
-    height: 71px;
-}
+    .logo-desktop {
+        display: block;
+        width: 285px;
+        height: 71px;
+    }
+
+    .cta {
+        font-size: 1.25rem;
+        padding: 5px 15px;
+    }
+
+    .cta:hover {
+        background-color: #fff;
+        color: #792EC3;
+        font-size: 1.25rem;
+        padding: 5px 15px;
+        border: 1px solid #792EC3;
+        border-radius: 0px 5px 0px 5px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .page-title {
+        margin: 170px auto 20px auto;
+    }
 
 
+    /*Contact card*/
+    .contact-card {
+        margin: 0px auto 50px auto;
+        width: 493px;
+        height: 313px;
+    }
 
+    .contact-desktop {
+        display: flex;
+        gap: 35px;
+        margin-bottom: 30px;
+    }
+
+    .contact-card-heading {
+        margin: 25px auto;
+    }
+
+    .contact-card-heading p {
+        font-size: 1.375rem;
+    }
+
+    label {
+        font-size: 1.1rem;
+    }
+
+    input[type=text], 
+    input[type=email] {
+        height: 30px;
+    }
+
+    textarea {
+        height: 90px;
+    }
+
+    input, textarea {
+        margin: 5px 0px 4px 0px;
+    }
+
+     /*Footer*/
+    .footer-layout {
+        padding: 13px 0px;
+    }
+    
+    .footer-content p {
+        font-size: 1rem;
+    }
+    
+    .footer-social-icons {
+        font-size: 2.5rem;
+    }
+    
+    .csm-cpoyright {
+        font-size: 1rem;
+        padding-top: 10px;
+    }
 
 /*Homepage*/
+
+    .welcome-content {
+        margin-top: 163px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image-wrapper img {
+        width: 95%;
+        display: block;
+        margin-left: 40px;
+    }
+
+    .heading-on-image {
+        top: 21%;
+        left: 49%;
+        font-size: 3.9vw;
+        width: 48%;
+    }
+
+    .cta-on-image {
+        top: 72%;
+        left: 62%;
+        font-size: 2vw;
+    }
+
+    .cta-on-image:hover {
+        font-size: 2vw;
+    }
+
+    .welcome-message {
+        display: flex;
+    }
+
+    .welcome-message > p {
+        font-size: 3vw;
+    }
+
+    .h2-exhibitions_hompage {
+        font-size: 2.375rem;
+        margin: 20px 0px;
+    }
+
+    .exhibition-hompage-desktop {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 950px;
+        margin: 10px auto;
+    }
+
+    .exhibition-list {
+        font-size: 1.4rem;
+    }
+
+    .location-img {
+            width: 458px;
+            height: 334px;
+            object-fit: cover;
+            object-position: 100% 0%;
+            display: block;
+            margin: unset;
+    }
+
+    .our-aim-content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        margin: 50px auto;
+        max-width: 950px;
+    }
+
+    .our-aim {
+        width: 310px;
+        margin: unset;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .vr-glasses-img {
+        width: 361px;
+        height: 402px;
+        margin: 15px auto;
+        object-position: 0% 100%;
+    }
+
+
 /*Explore*/
+
+    .explore-card {
+        width: 570px;
+    }
+
+    .explore-text {
+        gap: 15px;
+        width: 540px;
+        text-align: left;
+        margin: 20px auto;
+    }
+
+    .explore-text p { 
+        font-size: 1.25rem;
+    }
+
+    .for-teachers-img {
+        height: 408px;
+    }
+
+    .for-researchers-img {
+        height: 408px;
+    }
+
+
 /*Our exhibitions*/
+
+    .exhibition-card {
+        margin: 0px auto 30px auto;
+        width: 570px;
+    }
+
+    .exhibition-img {
+        height: 290px;
+    }
+
+    .exhibition-text {
+        gap: 15px;
+        width: 540px;
+        text-align: left;
+        margin: 20px auto;
+    }
+
+    .exhibition-text p { 
+        font-size: 1.25rem;
+    }
+
+
+
 /*Get involved*/
+
+    .get-involved-card {
+        width: 570px;
+        padding: 20px;
+    }
+
+    .involved-text {
+        gap: 15px;
+        width: 500px;
+        text-align: left;
+    }
+
+    .involved-text p {
+        font-size: 1.25rem;
+    }
+
+
 /*About us*/
-/*Message sent*/    
+
+    .about-us-img {
+        width: 570px;
+        height: 428px;
+    }
+
+    .about-us-container {
+        width: 500px;
+        margin: 20px auto 0px auto;
+    }
+
+    .about-us-container p {
+        font-size: 1.25rem;
+    }
+
+    .selling-point_about {
+        font-size: 2rem;
+        padding: 20px 4px;
+        width: 500px;
+    }
+
+    .about-info {
+        gap: 25px;
+        padding-bottom: 30px;
+    }
+
+    .about-info-content {
+        width: 320px;
+    }
+
+    .about-info-content p {
+        font-size: 1.25rem;
+    }
+
+    .involved-button {
+        margin-left: -69px;
+    }
+
+/*Message sent*/   
+
+    .message-sent-card {
+        margin: 177px auto 30px auto;    
+        width: 344px;
+    }
+
+    .message-sent-img {
+        height: 252px;
+    }
+
+    .message-sent-text {
+        font-size: 1.25rem;
+    }
 
 }

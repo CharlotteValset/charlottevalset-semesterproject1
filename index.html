@@ -40,19 +40,23 @@
         </section>
         <section class="our-exhibitions_hompage">
             <h2 class="h2-exhibitions_hompage">Our exhibitions<i class="fa-regular fa-circle-down"></i></h2>
-            <img src="images/location.jpg" alt="Picture of an exhibitroom in our museum">
-            <ul class="exhibition-list">
-                <li>Cosmology</li>
-                <li>Robotics and AI</li>
-                <li>Biology and Medicine</li>
-                <li>Evolution</li>
-            </ul>
-            <a href="our-exhibitions.html" class="cta">Read more!</a>
+            <div class="exhibition-hompage-desktop">
+                <img src="images/location.jpg" class="location-img"alt="Picture of an exhibitroom in our museum">
+                <div>
+                    <ul class="exhibition-list">
+                        <li>Cosmology</li>
+                        <li>Robotics and AI</li>
+                        <li>Biology and Medicine</li>
+                        <li>Evolution</li>
+                    </ul>
+                    <a href="our-exhibitions.html" class="cta">Read more!</a>
+                </div>
+            </div>
         </section>
         <section class="csm-logo">
             <img src="images/csm-logo2.png" alt="The logo of Community Science Museum">
         </section>
-        <section>
+        <section class="our-aim-content">
             <p class="our-aim">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
             <div>
                 <img src="images/vr-glasses.jpg" class="vr-glasses-img" alt="Picture of a kid who is trying on VR-glasses ">
@@ -65,12 +69,18 @@
             </div>
             <div class="contact-form">
                 <form action="form-success.php" method="POST">
-                    <label for="name">Name*</label>
-                    <input type="text" name="name" id="name" class="" required>
-                    <label for="email">Email*</label>
-                    <input type="email" name="email" id="email" class="" required>
-                    <label for="message">Your message*</label>
-                    <textarea id="message" name="message"></textarea>
+                    <div class="contact-desktop">
+                        <div>
+                            <label for="name">Name*</label>
+                            <input type="text" name="name" id="name" class="" required>
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" class="" required>
+                        </div>
+                        <div>
+                            <label for="message">Your message*</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        </div>
                     <a href="message-sent.html" class="cta">Send</a>
                  </form>    
             </div>
@@ -89,8 +99,8 @@
                 <p>10.00-18.00</p>
             </div>
             <div class="footer-social-icons">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
         <p class="csm-cpoyright">Copyright &copy; 2023 Community Science Museum</p>
