@@ -25,6 +25,7 @@ html {
 }
 
 body {
+    position: relative;
     width: 100%;
     min-height: 100vh;
 }
@@ -53,10 +54,6 @@ header {
     background-color: #fff;
     padding: 10px 0px;
 }
-
-/* .logo-desktop {
-    display: none;
-} */
 
 nav {
     position: absolute;
@@ -112,6 +109,20 @@ nav,
     display: none;
 }
 
+.decor-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 244px;
+}
+
+.decor-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 244px;
+}
+
 h1 {
     font-size: 1.5rem;
 }
@@ -159,7 +170,7 @@ img {
     border-radius: 0px 5px 0px 5px;
 }
 
-.logo-mobile {
+.logo {
     height: 40px;
     width: 163px;
     padding-left: 15px;
@@ -231,6 +242,7 @@ textarea {
 footer {
     background-color: #5AC5B4;
     margin-top: auto;
+    z-index: 30;
 }
 
 .footer-layout {
@@ -619,7 +631,7 @@ footer {
         text-decoration: underline;
     }
 
-    .logo-mobile {
+    .logo {
         height: 71px;
         width: 285px;
         padding-left: 0px;
@@ -633,12 +645,6 @@ footer {
     nav {
         display: block;
     }
-
-    /* .logo-desktop {
-        display: block;
-        width: 285px;
-        height: 71px;
-    } */
 
     .cta {
         font-size: 1.25rem;
