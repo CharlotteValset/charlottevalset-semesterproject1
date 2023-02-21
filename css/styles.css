@@ -9,7 +9,18 @@
 /*General styles*/
 
 :root {
-
+    --font-family: 'Roboto', Arial, sans-serif;
+    --purple: #792EC3;
+    --purple-border: #792EC3;
+    --purple-heading: #792EC3;
+    --purplelight: #DACBEA;
+    --green: #5AC5B4;
+    --green-border: #5AC5B4;
+    --icons: #48A394;
+    --social-icons: #132C28;
+    --white: #fff;
+    --white-text: #fff;
+    --grey: #ebebeb; 
 }
 
 * {
@@ -20,7 +31,7 @@
 
 html {
     font-size: 1rem;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: var(--font-family);
     color: #000;
 }
 
@@ -51,21 +62,21 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: var(--white);
     padding: 10px 0px;
 }
 
 nav {
     position: absolute;
     z-index: 1;
-    background-color: #fff;
+    background-color: var(--white);
     width: 100vw;
     top: 50px;
     padding: 8px 0px;
 }
 
 .nav-menu {
-    border: 3px solid #5AC5B4;
+    border: 3px solid var(--green-border);
     border-radius: 0px 15px 0px 15px;
     width: 220px;
     margin: auto;
@@ -79,7 +90,7 @@ nav li {
 }
 
 li a:active {
-    background-color: #DACBEA;
+    background-color: var(--purplelight);
     width: 140px;
     height: 25px;
     display: flex;
@@ -109,18 +120,9 @@ nav,
     display: none;
 }
 
-.decor-left {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 244px;
-}
-
+.decor-left,
 .decor-right {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 244px;
+    display: none;
 }
 
 h1 {
@@ -162,11 +164,11 @@ img {
 
 /* .cta:hover, */
 .cta:active {
-    background-color: #fff;
-    color: #792EC3;
+    background-color: var(--white);
+    color: var(--purple);
     font-size: 0.938rem;
     padding: 3px 15px;
-    border: 1px solid #792EC3;
+    border: 1px solid var(--purple-border)
     border-radius: 0px 5px 0px 5px;
 }
 
@@ -186,7 +188,7 @@ img {
     text-align: center;
     margin: 0px auto 30px auto;
     width: 230px;
-    border: 3px solid #5AC5B4;
+    border: 3px solid var(--green-border);
     border-radius: 0px 15px 0px 15px;
 }
 
@@ -240,7 +242,7 @@ textarea {
 
  /*Footer*/
 footer {
-    background-color: #5AC5B4;
+    background-color: var(--green);
     margin-top: auto;
     z-index: 30;
 }
@@ -260,6 +262,11 @@ footer {
     font-size: 2rem;
 }
 
+.fa-facebook,
+.fa-instagram {
+    color: #132C28;
+}
+
 .csm-cpoyright {
     font-size: 0.75rem;
     text-align: center;
@@ -271,7 +278,7 @@ footer {
 
 .welcome-content {
     margin-top: 65px;
-    background-color: #792EC3;
+    background-color: var(--purple);
 }
 
 .image-wrapper {
@@ -290,7 +297,7 @@ footer {
 .heading-on-image {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: var(--white);
     position: absolute;
     text-align: center;
     top: 21%;
@@ -311,7 +318,7 @@ footer {
 
 .welcome-message {
     padding: 5px 0px;
-    color: #fff;
+    color: var(--white-text);
     text-align: center;
 }
 
@@ -377,8 +384,8 @@ footer {
 .explore-card {
     text-align: center;
     margin: 0px auto 30px auto;
-    width: 266px;
-    border: 3px solid #792EC3;
+    width: 80%;
+    border: 3px solid var(--purple-border);
     border-radius: 0px 15px 0px 15px;
 }
 
@@ -386,7 +393,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 245px;
+    width: 80%;
     margin: 10px auto;
 }
 
@@ -414,8 +421,8 @@ footer {
 
 .exhibition-card {
     margin: 0px auto 30px auto;
-    width: 266px;
-    border: 3px solid #5AC5B4;
+    width: 80%;
+    border: 3px solid var(--green-border);
     border-radius: 0px 15px 0px 15px;
 }
 
@@ -423,14 +430,14 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 245px;
+    width: 90%;
     margin: 10px auto;
 }
 
 .exhibition-h2 {
     text-align: center;
     margin: 10px auto;
-    color: #792EC3;
+    color: var(--purple-heading);
 }
 
 .exhibition-img {
@@ -446,8 +453,8 @@ footer {
 
 .get-involved-card {
     margin: 0px auto 30px auto;
-    width: 266px;
-    border: 3px solid #792EC3;
+    width: 90%;
+    border: 3px solid var(--purple-border);
     border-radius: 0px 15px 0px 15px;
     text-align: center;
 }
@@ -455,7 +462,7 @@ footer {
 .fa-piggy-bank,
 .fa-people-group,
 .fa-id-card {
-    color: #48A394;
+    color: var(--icons);
     font-size: 3rem;
     margin-top: 18px;
 }
@@ -468,7 +475,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 235px;
+    width: 85%;
     margin: 10px auto;
 }
 
@@ -495,7 +502,7 @@ footer {
 
 .selling-point_about {
     font-size: 1.2rem;
-    color: #792EC3;
+    color: var(--purple-heading);
     text-align: center;
     font-weight: 700;
     padding: 15px 4px;
@@ -509,7 +516,7 @@ footer {
 .fa-wheelchair,
 .fa-utensils,
 .fa-basket-shopping {
-    color: #48A394;
+    color: var(--icons);
     font-size: 2rem;
 }
 
@@ -552,7 +559,7 @@ footer {
     text-align: center;
     margin: 80px auto 30px auto;
     width: 266px;
-    border: 3px solid #792EC3;
+    border: 3px solid var(--purple-border);
     border-radius: 0px 15px 0px 15px;
     padding-bottom: 30px;
 }
@@ -616,7 +623,7 @@ footer {
     }
 
     li a:hover {
-        background-color: #DACBEA;
+        background-color: var(--purplelight);
         width: auto;
         height: auto;
         display: initial;
@@ -627,7 +634,7 @@ footer {
     }
 
     .active {
-        color: #792EC3;
+        color: var(--purple);
         text-decoration: underline;
     }
 
@@ -652,11 +659,11 @@ footer {
     }
 
     .cta:hover {
-        background-color: #fff;
-        color: #792EC3;
+        background-color: var(--white);
+        color: var(--purple);
         font-size: 1.25rem;
         padding: 5px 15px;
-        border: 1px solid #792EC3;
+        border: 1px solid var(--purple-border);
         border-radius: 0px 5px 0px 5px;
     }
 
@@ -753,11 +760,6 @@ footer {
     .cta-on-image {
         top: 72%;
         left: 62%;
-        font-size: 2vw;
-    }
-
-    .cta-on-image:hover {
-        font-size: 2vw;
     }
 
     .welcome-message {
@@ -941,4 +943,29 @@ footer {
         font-size: 1.25rem;
     }
 
+}
+
+@media only screen and (min-width:1150px) {
+    .decor-left {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 20%;
+        height: 100%;
+    }
+    
+    .decor-right {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 20%;
+        height: 100%;
+    }
+
+    footer {
+        z-index: 0;
+        position: inherit;
+    }
 }
