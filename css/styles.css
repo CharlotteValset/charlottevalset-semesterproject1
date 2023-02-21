@@ -595,6 +595,7 @@ footer {
     nav {
         display: block;
         top: 96px;
+        box-shadow: 0px 2px 2px 0px #00000040;
     }
 
     .nav-menu {
@@ -671,7 +672,7 @@ footer {
     }
 
     .page-title {
-        margin: 170px auto 20px auto;
+        margin: 180px auto 20px auto;
     }
 
 
