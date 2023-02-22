@@ -765,7 +765,6 @@ footer {
     .welcome-content {
         margin-top: 147px;
         display: flex;
-        flex-direction: row;
     }
 
     .image-wrapper img {
@@ -777,7 +776,7 @@ footer {
     .heading-on-image {
         top: 21%;
         left: 45%;
-        font-size: 3.9vw;
+        font-size: clamp(2rem, 2.5vw, 3rem);
         width: initial;
     }
 
@@ -791,7 +790,7 @@ footer {
     }
 
     .welcome-message > p {
-        font-size: 3vw;
+        font-size: clamp(1.5rem, 2.5vw, 2rem);
     }
 
     .h2-exhibitions_hompage {
