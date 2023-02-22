@@ -72,7 +72,7 @@ nav {
     background-color: var(--white);
     width: 100vw;
     top: 50px;
-    padding: 8px 0px;
+    padding: px 0px;
 }
 
 .nav-menu {
@@ -357,7 +357,7 @@ footer {
 
 .coming-soon-card {
     text-align: center;
-    margin: 0px auto 30px auto;
+    margin: 50px auto 30px auto;
     width: 65%;
     border: 3px solid var(--purple-border);
     border-radius: 0px 15px 0px 15px;
@@ -379,7 +379,7 @@ footer {
 }
 
 .coming-soon-h3 {
-    margin: 10px auto;
+    margin: 5px auto 10px auto;
 }
 
 .csm-logo {
@@ -762,7 +762,7 @@ footer {
 /*Homepage*/
 
     .welcome-content {
-        margin-top: 163px;
+        margin-top: 147px;
         display: flex;
         flex-direction: row;
     }
@@ -795,7 +795,7 @@ footer {
 
     .h2-exhibitions_hompage {
         font-size: 2.375rem;
-        margin: 20px 0px;
+        margin: 30px 0px;
     }
 
     .exhibition-hompage-desktop {
