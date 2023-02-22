@@ -355,10 +355,37 @@ footer {
     padding: 3px 0px;
 }
 
+.coming-soon-card {
+    text-align: center;
+    margin: 0px auto 30px auto;
+    width: 65%;
+    border: 3px solid var(--purple-border);
+    border-radius: 0px 15px 0px 15px;
+}
+.coming-soon-card img {
+    width: 60%;
+}
+
+.coming-soon-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px auto 40px auto;
+}
+
+.coming-soon-h2 {
+    margin: 15px auto;
+    color: var(--purple);
+}
+
+.coming-soon-h3 {
+    margin: 10px auto;
+}
+
 .csm-logo {
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
+    margin: 25px auto;
 }
 
 .csm-logo img {
@@ -588,13 +615,13 @@ footer {
 /*General styles*/
 
     header {
-        padding: 20px 0px;
+        padding: 15px 0px 5px 0px;
         justify-content: center;
     }
 
     nav {
         display: block;
-        top: 96px;
+        top: 95px;
         box-shadow: 0px 2px 2px 0px #00000040;
     }
 
@@ -798,7 +825,7 @@ footer {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-around;
-        margin: 50px auto;
+        margin: 35px auto;
         max-width: 950px;
     }
 
