@@ -308,22 +308,23 @@ footer {
     text-align: center;
     top: 21%;
     left: 38%;
+    font-size: 8vw;
 }
 
-.heading-on-image p {
+/* .heading-on-image p {
     font-size: 8vw;
     font-weight: 700;
-}
+} */
 
 .cta-on-image {
     position: absolute;
     top: 72%;
-    left: 58%;
-    font-size: 3.5vw;
+    left: 60%;
+    font-size: clamp(1rem, 3.3vw, 2rem);
 }
 
 .cta-on-image:active {
-    font-size: 3.5vw;
+    /* font-size: 3.5vw; */
 }
 
 .welcome-message {
@@ -766,8 +767,15 @@ footer {
         margin: 177px auto 0px auto;
     }
 
-    .heading-on-image p {
-        font-size: clamp(2.2rem, 2.3rem, 2.375rem);
+    .heading-on-image {
+        font-size: 2rem;
+        width: min-content;
+        top: 23%;
+        left: 46%;
+    }
+
+    .cta-on-image {
+        left: 56%;
     }
 
     .welcome-message {
