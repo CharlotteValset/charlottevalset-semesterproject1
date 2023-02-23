@@ -179,8 +179,8 @@ img {
 }
 
 .image-wrapper {
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
 }
 
  /*Contact card*/
@@ -249,17 +249,23 @@ footer {
 
 .footer-layout {
     display: flex;
-    /* flex-direction: row; */
-    justify-content: space-around;
-    padding: 10px 0px;
+    justify-content: space-between;
+    margin: auto 13px;
 }
 
-.footer-content p {
+.footer-info-layout {
+    display: flex;
+    padding: 10px 0px;
+    gap: 20px;
+}
+
+.footer-info-layout p {
     font-size: 0.75rem;
 }
 
 .footer-social-icons {
     font-size: 2rem;
+    padding: 10px;
 }
 
 .fa-facebook,
@@ -302,7 +308,11 @@ footer {
     text-align: center;
     top: 21%;
     left: 38%;
+}
+
+.heading-on-image p {
     font-size: 8vw;
+    font-weight: 700;
 }
 
 .cta-on-image {
@@ -428,22 +438,6 @@ footer {
 .explore-h2 {
     margin: 10px auto;
 }
-
-/* .for-teachers-img {
-    width: 100%;
-    height: 177px;
-    object-fit: cover;
-    object-position: 0% 16%;
-    display: block;
-}
-
-.for-researchers-img {
-    width: 100%;
-    height: 177px;
-    object-fit: cover;
-    object-position: 0% 59%;
-    display: block;
-} */
 
 /*Our exhibitions*/
 
@@ -656,7 +650,7 @@ footer {
         align-items: center;
         border-radius: 0px 12px 0px 12px;
         padding: 6px 10px;
-        transition: background-color 0.5s;
+        transition: 0.5s;
     }
 
     .active {
@@ -745,11 +739,12 @@ footer {
     }
 
      /*Footer*/
-    .footer-layout {
-        padding: 13px 0px;
+
+    .footer-info-layout {
+        padding: 13px 20px;
     }
     
-    .footer-content p {
+    .footer-info-layout p {
         font-size: 1rem;
     }
     
@@ -765,34 +760,24 @@ footer {
 /*Homepage*/
 
     .welcome-content {
-        margin-top: 147px;
         display: flex;
+        max-width: 900px;
+        justify-content: space-around;
+        margin: 177px auto 0px auto;
     }
 
-    .image-wrapper img {
-        width: 95%;
-        display: block;
-        margin-left: 40px;
-    }
-
-    .heading-on-image {
-        top: 21%;
-        left: 45%;
-        font-size: clamp(2rem, 2.5vw, 3rem);
-        width: initial;
-    }
-
-    .cta-on-image {
-        top: 72%;
-        left: 62%;
+    .heading-on-image p {
+        font-size: clamp(2.2rem, 2.3rem, 2.375rem);
     }
 
     .welcome-message {
         display: flex;
+        background-color: var(--purple);
     }
 
     .welcome-message > p {
-        font-size: clamp(1.5rem, 2.5vw, 2rem);
+    display: flex;
+    font-size: 1.5rem;
     }
 
     .h2-exhibitions_hompage {

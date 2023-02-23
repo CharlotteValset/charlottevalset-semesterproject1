@@ -47,16 +47,7 @@
       </nav>
     </header>
     <main>
-      <!-- <img
-        src="images/decor-left.png"
-        class="decor-left"
-        alt="Graphic decor icons on the left"
-      />
-      <img
-        src="images/decor-right.png"
-        class="decor-right"
-        alt="Graphic decor icons on the right"
-      /> -->
+      <h1 class="hidden">Let's explore together!</h1>
       <section class="welcome-content">
         <div class="image-wrapper">
           <img
@@ -65,7 +56,11 @@
             alt="Picture of female scientist sitting in front of a huge science equipment"
           />
           <div class="text-and-button-on-image">
-            <h1 class="heading-on-image">Let's explore together!</h1>
+            <div class="heading-on-image">
+              <p>LET'S</p>
+              <p>EXPLORE</p>
+              <p>TOGETHER!</p>
+            </div>
             <a href="explore.html" class="cta cta-on-image">Explore</a>
           </div>
         </div>
@@ -179,35 +174,37 @@
           <p class="bold-700">Please contact us!</p>
         </div>
         <div class="contact-form">
-          <form action="form-success.php" method="POST">
+          <form action="message-sent.html">
             <div class="contact-desktop">
               <div>
                 <label for="name">Name*</label>
-                <input type="text" name="name" id="name" class="" required />
+                <input type="text" name="name" id="name" required />
                 <label for="email">Email*</label>
-                <input type="email" name="email" id="email" class="" required />
+                <input type="email" name="email" id="email" required />
               </div>
               <div>
                 <label for="message">Your message*</label>
-                <textarea id="message" name="message"></textarea>
+                <textarea id="message" name="message" required></textarea>
               </div>
             </div>
-            <a href="message-sent.html" class="cta">Send</a>
+            <button type="submit" class="cta">Send</button>
           </form>
         </div>
       </div>
     </main>
     <footer>
       <div class="footer-layout">
-        <div class="footer-content">
-          <p class="bold-700">Visit us</p>
-          <p>Markensgate 100</p>
-          <p>4630 Kristiansand</p>
-        </div>
-        <div class="footer-content">
-          <p class="bold-700">Opening hours</p>
-          <p>Tuesday-Sunday</p>
-          <p>10.00-18.00</p>
+        <div class="footer-info-layout">
+          <div>
+            <p class="bold-700">Visit us</p>
+            <p>Markensgate 100</p>
+            <p>4630 Kristiansand</p>
+          </div>
+          <div>
+            <p class="bold-700">Opening hours</p>
+            <p>Tuesday-Sunday</p>
+            <p>10.00-18.00</p>
+          </div>
         </div>
         <div class="footer-social-icons">
           <a href="https://www.facebook.com/"
