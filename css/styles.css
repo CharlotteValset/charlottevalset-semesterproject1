@@ -133,6 +133,10 @@ h2 {
     font-size: 1.25rem;
 }
 
+h3 {
+    font-size: 1.17rem;
+}
+
 p {
     font-size: 1rem;
 }
@@ -296,10 +300,6 @@ footer {
     width: 100%;
 }
 
-.text-and-button-on-image {
-
-}
-
 .heading-on-image {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -311,20 +311,11 @@ footer {
     font-size: 8vw;
 }
 
-/* .heading-on-image p {
-    font-size: 8vw;
-    font-weight: 700;
-} */
-
 .cta-on-image {
     position: absolute;
     top: 72%;
     left: 60%;
     font-size: clamp(1rem, 3.3vw, 2rem);
-}
-
-.cta-on-image:active {
-    /* font-size: 3.5vw; */
 }
 
 .welcome-message {
@@ -974,9 +965,4 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
     }
-
-    /* footer {
-        z-index: 0;
-        position: inherit;
-    } */
 }
