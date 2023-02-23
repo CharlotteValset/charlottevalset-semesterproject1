@@ -656,7 +656,7 @@ footer {
         align-items: center;
         border-radius: 0px 12px 0px 12px;
         padding: 6px 10px;
-        transition: 0.5s;
+        transition: background-color 0.5s;
     }
 
     .active {
