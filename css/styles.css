@@ -175,7 +175,7 @@ img {
     color: #000;
     font-size: 0.938rem;
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: lighter;
 }
 
 .logo {
