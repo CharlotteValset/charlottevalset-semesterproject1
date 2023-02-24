@@ -86,7 +86,11 @@ nav {
 }
 
 nav li {
-    padding: 5px 10px;
+    padding: 6px 10px;
+}
+
+li a {
+    font-size: 1.25rem;
 }
 
 li a:active {
@@ -618,7 +622,6 @@ footer {
         padding: 6px 10px;
         width: auto;
         height: auto;
-        font-size: 1.25rem;
     }
 
     li a:hover {
@@ -679,6 +682,20 @@ footer {
         margin: 180px auto 20px auto;
     }
 
+    .card {
+        width: 570px;
+    }
+
+    .card-text {
+        gap: 15px;
+        width: 540px;
+        text-align: left;
+        margin: 20px auto;
+    }
+
+    .card-text p {
+        font-size: 1.25rem;
+    }
 
     /*Contact card*/
     .contact-card {
@@ -824,69 +841,29 @@ footer {
 
 /*Explore*/
 
-    .explore-card {
-        width: 570px;
-    }
-
-    .explore-text {
-        gap: 15px;
-        width: 540px;
-        text-align: left;
-        margin: 20px auto;
-    }
-
-    .explore-text p { 
-        font-size: 1.25rem;
-    }
-
-    .for-teachers-img {
-        height: 408px;
-    }
-
+    .for-teachers-img,
     .for-researchers-img {
         height: 408px;
     }
-
 
 /*Our exhibitions*/
 
     .exhibition-card {
         margin: 0px auto 30px auto;
-        width: 570px;
     }
 
     .exhibition-img {
         height: 290px;
     }
 
-    .exhibition-text {
-        gap: 15px;
-        width: 540px;
-        text-align: left;
-        margin: 20px auto;
-    }
-
-    .exhibition-text p { 
-        font-size: 1.25rem;
-    }
-
-
-
 /*Get involved*/
 
     .get-involved-card {
-        width: 570px;
         padding: 20px;
     }
 
     .involved-text {
-        gap: 15px;
         width: 500px;
-        text-align: left;
-    }
-
-    .involved-text p {
-        font-size: 1.25rem;
     }
 
 
