@@ -120,11 +120,6 @@ nav,
     display: none;
 }
 
-.decor-left,
-.decor-right {
-    display: none;
-}
-
 h1 {
     font-size: 1.5rem;
 }
@@ -176,15 +171,31 @@ img {
     border-radius: 0px 5px 0px 5px;
 }
 
+.cta-send {
+    color: #000;
+}
+
 .logo {
     height: 40px;
     width: 163px;
     padding-left: 15px;
 }
 
-.image-wrapper {
-    /* height: auto;
-    width: auto; */
+.card {
+    margin: 0px auto 30px auto;
+    width: 80%;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.card-h2 {
+    margin: 10px auto;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px auto;
 }
 
  /*Contact card*/
@@ -297,7 +308,6 @@ footer {
 
 .image-wrapper img {
     display: block;
-    width: 100%;
 }
 
 .heading-on-image {
@@ -413,44 +423,29 @@ footer {
 
 .explore-card {
     text-align: center;
-    margin: 0px auto 30px auto;
-    width: 80%;
     border: 3px solid var(--purple-border);
-    border-radius: 0px 15px 0px 15px;
 }
 
 .explore-text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     width: 80%;
-    margin: 10px auto;
 }
 
-.explore-h2 {
+.card-h2 {
     margin: 10px auto;
 }
 
 /*Our exhibitions*/
 
 .exhibition-card {
-    margin: 0px auto 30px auto;
-    width: 80%;
     border: 3px solid var(--green-border);
-    border-radius: 0px 15px 0px 15px;
 }
 
 .exhibition-text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     width: 90%;
-    margin: 10px auto;
 }
 
 .exhibition-h2 {
     text-align: center;
-    margin: 10px auto;
     color: var(--purple-heading);
 }
 
@@ -461,10 +456,8 @@ footer {
 /*Get involved*/
 
 .get-involved-card {
-    margin: 0px auto 30px auto;
     width: 90%;
     border: 3px solid var(--purple-border);
-    border-radius: 0px 15px 0px 15px;
     text-align: center;
 }
 
@@ -476,16 +469,8 @@ footer {
     margin-top: 18px;
 }
 
-.involved-h2 {
-    margin: 10px auto;
-}
-
 .involved-text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     width: 85%;
-    margin: 10px auto;
 }
 
 /*About us*/
