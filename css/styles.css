@@ -86,7 +86,7 @@ nav {
 }
 
 nav li {
-    padding: 6px 10px;
+    padding: 6px 36px;
 }
 
 li a {
@@ -250,6 +250,7 @@ input[type=text],
 input[type=email] {
     width: 175px;
     height: 25px;
+    padding: 0px 5px;
 }
 
 label {
@@ -260,6 +261,7 @@ label {
 textarea {
     height: 80px;
     width: 175px;
+    padding: 5px 5px;
 }
 
  /*Footer*/
@@ -382,13 +384,13 @@ footer {
     border-radius: 0px 15px 0px 15px;
 }
 .coming-soon-card img {
-    width: 65%;
+    width: 85%;
 }
 
 .coming-soon-text {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 84%;
     margin: 10px auto 40px auto;
 }
 
