@@ -6,6 +6,15 @@
 /*About us*/
 /*Message sent*/
 
+/* 
+aria-current="page"
+*/
+li a[aria-current="page"]{
+    color:#48A394
+}
+
+
+
 /*General styles*/
 
 :root {
@@ -639,7 +648,7 @@ footer {
         transition: 0.5s;
     }
 
-    .active {
+    li a[aria-current="page"]{
         color: var(--purple);
         text-decoration: underline;
     }
