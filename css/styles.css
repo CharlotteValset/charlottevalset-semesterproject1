@@ -1,10 +1,16 @@
-/*General styles*/
-/*Homepage*/
-/*Explore*/
-/*Our exhibitions*/
-/*Get involved*/
-/*About us*/
-/*Message sent*/
+        /*TABLE OF CONTENT*/
+
+        /*General styles*/
+            /*Card*/
+            /*Contact card*/
+            /*Footer*/
+        /*Homepage*/
+        /*Explore*/
+        /*Our exhibitions*/
+        /*Get involved*/
+        /*About us*/
+        /*Message sent*/
+        /*Media Queries*/
 
 
 /*General styles*/
@@ -30,16 +36,13 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 1rem;
-    font-family: var(--font-family);
-    color: #000;
-}
-
 body {
     position: relative;
     width: 100%;
     min-height: 100vh;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    color: #000;
 }
 
 ul {
@@ -92,6 +95,11 @@ nav li {
 
 li a {
     font-size: 1.25rem;
+}
+
+li a[aria-current="page"]{
+    color: var(--purple);
+    text-decoration: underline;
 }
 
 li a:active {
@@ -188,7 +196,7 @@ img {
     width: 163px;
     padding-left: 15px;
 }
-
+/*Card*/
 .card {
     margin: 0px auto 30px auto;
     width: 80%;
@@ -605,7 +613,8 @@ footer {
     nav {
         display: block;
         background-color: var(--white);
-        top: 75px;
+        top: 86px;
+        padding: 10px 0px;
         box-shadow: 0px 2px 2px 0px #00000040;
     }
 
