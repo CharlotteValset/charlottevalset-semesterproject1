@@ -231,7 +231,7 @@ img {
     
 }
 
-.contact-card-heading p {
+.contact-card-heading h2 {
     font-size: 1.25rem;
 }
 
@@ -506,6 +506,10 @@ footer {
     margin: 10px auto 0px auto;
 }
 
+.about-us-h2 {
+    font-size: 1.25rem;
+}
+
 .about-us-text {
     display: flex;
     flex-direction: column;
@@ -727,7 +731,7 @@ footer {
         margin: 25px auto;
     }
 
-    .contact-card-heading p {
+    .contact-card-heading h2 {
         font-size: 1.375rem;
     }
 
