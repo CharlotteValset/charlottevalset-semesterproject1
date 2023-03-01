@@ -86,7 +86,6 @@ nav {
 
 ul {
   list-style-type: none;
-  /* padding: 0px; */
   text-align: center;
   background-color: #fff;
 }
@@ -158,10 +157,6 @@ p {
 
 .bold-700 {
   font-weight: 700;
-}
-
-.bold-900 {
-  font-weight: 900;
 }
 
 .page-title {
@@ -611,20 +606,22 @@ footer {
     justify-content: center;
   }
 
+  .logo {
+    height: 71px;
+    width: 285px;
+    padding-left: 0px;
+  }
+
   nav {
     display: block;
-    background-color: var(--white);
     top: 86px;
     padding: 10px 0px;
-    box-shadow: 0px 2px 2px 0px #00000040;
   }
 
   .nav-menu {
     width: 615px;
     margin: 8px auto;
-    display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
   }
 
@@ -650,24 +647,9 @@ footer {
     transition: 0.5s;
   }
 
-  li a[aria-current="page"] {
-    color: var(--purple);
-    text-decoration: underline;
-  }
-
-  .logo {
-    height: 71px;
-    width: 285px;
-    padding-left: 0px;
-  }
-
   .hamburger-menu,
   #menu-checkbox {
     display: none;
-  }
-
-  nav {
-    display: block;
   }
 
   .cta {
@@ -692,10 +674,15 @@ footer {
     font-size: 2rem;
   }
 
+  p {
+    font-size: 1.25rem;
+  }
+
   .page-title {
     margin: 180px auto 20px auto;
   }
 
+  /*Cards*/
   .card {
     width: 570px;
   }
@@ -707,15 +694,10 @@ footer {
     margin: 20px auto;
   }
 
-  .card-text p {
-    font-size: 1.25rem;
-  }
-
   /*Contact card*/
   .contact-card {
     margin: 0px auto 50px auto;
     width: 493px;
-    height: 328px;
   }
 
   .contact-desktop {
@@ -791,7 +773,6 @@ footer {
 
   .welcome-message {
     display: flex;
-    background-color: var(--purple);
   }
 
   .welcome-message > p {
@@ -884,16 +865,11 @@ footer {
 
   .about-us-img {
     width: 570px;
-    height: 428px;
   }
 
   .about-us-container {
     width: 500px;
     margin: 20px auto 0px auto;
-  }
-
-  .about-us-container p {
-    font-size: 1.25rem;
   }
 
   .selling-point_about {
@@ -911,10 +887,6 @@ footer {
     width: 320px;
   }
 
-  .about-info-content p {
-    font-size: 1.25rem;
-  }
-
   .involved-button {
     margin-left: -69px;
   }
@@ -928,10 +900,6 @@ footer {
 
   .message-sent-img {
     height: 252px;
-  }
-
-  .message-sent-text {
-    font-size: 1.25rem;
   }
 }
 
