@@ -278,6 +278,7 @@ textarea {
   height: 80px;
   width: 175px;
   padding: 5px 5px;
+  font-family: var(--font-family);
 }
 
 /*Footer*/
