@@ -186,8 +186,8 @@ img {
   border-radius: var(--border-radius-5);
   transition: 0.3s; */
   outline: none;
-  box-shadow: 0 0 5px 2px rgb(233, 2, 2);
-  transition: box-shadow 0.9s ease-in-out;
+  color: #5ac5b4;
+  transition: color 0.9s ease-in-out;
 }
 
 .cta-send {
