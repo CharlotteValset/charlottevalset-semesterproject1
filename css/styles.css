@@ -108,7 +108,7 @@ li a[aria-current="page"] {
   text-decoration: underline;
 }
 
-li a:active {
+li a:hover {
   background-color: var(--purplelight);
   width: 140px;
   height: 25px;
