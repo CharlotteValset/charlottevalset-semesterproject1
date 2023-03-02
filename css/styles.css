@@ -184,7 +184,7 @@ img {
   padding: 3px 15px;
   border: 1px solid var(--purple-border);
   border-radius: var(--border-radius-5);
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .cta-send {
