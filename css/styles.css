@@ -169,7 +169,7 @@ img {
 }
 
 .cta {
-  background-color: #fd7a2e;
+  background-color: #ef2efd;
   font-size: 1rem;
   padding: 3px 15px;
   border: 1px solid #000;
@@ -178,13 +178,16 @@ img {
 }
 
 .cta:focus {
-  background-color: var(--white);
+  /* background-color: var(--white);
   color: var(--purple);
   font-size: 0.938rem;
   padding: 3px 15px;
   border: 1px solid var(--purple-border);
   border-radius: var(--border-radius-5);
-  transition: 0.3s;
+  transition: 0.3s; */
+  outline: none;
+  box-shadow: 0 0 5px 2px rgb(233, 2, 2);
+  transition: box-shadow 0.5s ease-in-out;
 }
 
 .cta-send {
