@@ -177,7 +177,7 @@ img {
   border-radius: var(--border-radius-5);
 }
 
-.cta:active {
+.cta:hover {
   background-color: var(--white);
   color: var(--purple);
   padding: 3px 15px;
@@ -634,12 +634,9 @@ footer {
   }
 
   li a:hover {
-    background-color: var(--purplelight);
     width: auto;
     height: auto;
     display: initial;
-    justify-content: center;
-    align-items: center;
     border-radius: 0px 12px 0px 12px;
     padding: 6px 10px;
     transition: 0.5s;
@@ -657,12 +654,8 @@ footer {
   }
 
   .cta:hover {
-    background-color: var(--white);
-    color: var(--purple);
     font-size: 1.25rem;
     padding: 5px 15px;
-    border: 1px solid var(--purple-border);
-    border-radius: var(--border-radius-5);
   }
 
   h1 {
