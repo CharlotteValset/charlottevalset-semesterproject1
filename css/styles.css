@@ -177,14 +177,14 @@ img {
   transition: 0.5s;
 }
 
-.cta:active {
+.cta:focus {
   background-color: var(--white);
   color: var(--purple);
   font-size: 0.938rem;
   padding: 3px 15px;
   border: 1px solid var(--purple-border);
   border-radius: var(--border-radius-5);
-  transition: 1s;
+  /* transition: 1s; */
 }
 
 .cta-send {
