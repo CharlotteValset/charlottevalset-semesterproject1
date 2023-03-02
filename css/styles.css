@@ -176,7 +176,7 @@ img {
   border-radius: var(--border-radius-5);
 }
 
-.cta:hover {
+.cta:active {
   background-color: var(--white);
   color: var(--purple);
   padding: 3px 15px;
