@@ -169,30 +169,23 @@ img {
 }
 
 .cta {
-  background-color: #ef2efd;
+  background-color: #fdaa2e;
   font-size: 1rem;
   padding: 3px 15px;
   border: 1px solid #000;
   border-radius: var(--border-radius-5);
-  /* transition: 0.5s; */
 }
 
 .cta:focus {
-  /* background-color: var(--white);
+  background-color: var(--white);
   color: var(--purple);
-  font-size: 0.938rem;
   padding: 3px 15px;
   border: 1px solid var(--purple-border);
   border-radius: var(--border-radius-5);
-  transition: 0.3s; */
-  outline: none;
-  color: #5ac5b4;
-  transition: color 0.9s ease-in-out;
 }
 
 .cta-send {
   color: #000;
-  font-size: 0.938rem;
   font-family: var(--font-family);
   font-weight: lighter;
 }
@@ -659,6 +652,7 @@ footer {
   .cta {
     font-size: 1.25rem;
     padding: 5px 15px;
+    transition: 0.5s;
   }
 
   .cta:hover {
