@@ -24,7 +24,7 @@ I made the design and wireframes in Figma, followed by building a fully responsi
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone https://github.com/CharlotteValset/charlottevalset-semesterproject1.git
 ```
 
 2. Install the dependencies:
