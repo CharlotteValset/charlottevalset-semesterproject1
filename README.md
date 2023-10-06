@@ -13,8 +13,6 @@ The website's primary audience consists of children aged 7-15 and families with 
 
 I made the design and wireframes in Figma, followed by building a fully responsive website using HTML and CSS.
 
-- Fully responsive
-
 ## Built With
 
 - HTML & CSS
